@@ -1,0 +1,71 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "name": "Juan",
+      "phone": 102013565,
+      "email": "juan@juan.com",
+      "company": "Coca-Cola"
+    },
+    {
+      "id": 2,
+      "name": "Karen",
+      "phone": 138198313,
+      "email": "karen@karen.com",
+      "company": "Sony"
+    },
+    {
+      "id": 3,
+      "name": "Josue",
+      "phone": 31983913,
+      "email": "josue@josue.com",
+      "company": "Fiat"
+    },
+    {
+      "id": 4,
+      "name": "Miguel",
+      "phone": 319381983,
+      "email": "miguel@miguel.com",
+      "company": "Nintendo"
+    },
+    {
+      "id": 5,
+      "name": "Pedro",
+      "phone": 1398198938,
+      "email": "pedro@pedro.com",
+      "company": "Microsoft"
+    },
+    {
+      "name": "asd",
+      "company": "123",
+      "email": "asd@asd.com",
+      "phone": "234234",
+      "notes": "ada",
+      "id": 6
+    },
+    {
+      "name": "asd",
+      "company": "asd",
+      "email": "asd@asd.com",
+      "phone": "123213",
+      "notes": "asdasddas",
+      "id": 7
+    },
+    {
+      "name": "asd",
+      "company": "234",
+      "email": "asd@asd.com",
+      "phone": "34234",
+      "notes": "wwrewer",
+      "id": 8
+    },
+    {
+      "name": "Sebastián Ponce",
+      "company": "CompuMundoHiperMegaRed",
+      "email": "sebastian@sebastian.com",
+      "phone": "134234234",
+      "notes": "Esto es una prueba usando react-router-dom",
+      "id": 9
+    }
+  ]
+}

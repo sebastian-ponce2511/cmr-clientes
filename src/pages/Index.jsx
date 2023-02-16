@@ -1,44 +1,9 @@
 import { useLoaderData } from "react-router-dom";
 import Customer from "../components/Customer";
+import { getCustomers } from "../data/Customers";
 
 export const loader = () => {
-  const customers = [
-    {
-      id: 1,
-      name: "Juan",
-      phone: 102013313,
-      email: "juan@juan.com",
-      company: "Coca Cola",
-    },
-    {
-      id: 2,
-      name: "Karen",
-      phone: 138198313,
-      email: "karen@juan.com",
-      company: "Sony",
-    },
-    {
-      id: 3,
-      name: "Josue",
-      phone: 31983913,
-      email: "josue@juan.com",
-      company: "Fiat",
-    },
-    {
-      id: 4,
-      name: "Miguel",
-      phone: 319381983,
-      email: "miguel@juan.com",
-      company: "Nintendo",
-    },
-    {
-      id: 5,
-      name: "Pedro",
-      phone: 1398198938,
-      email: "pedro@juan.com",
-      company: "Microsoft",
-    },
-  ];
+  const customers = getCustomers();
 
   return customers;
 };
@@ -60,8 +25,8 @@ const Index = () => {
             </tr>
           </thead>
           <tbody>
-            {data.map((customer) => (
-              <Customer customer={customer} />
+            {data.map((customer, i) => (
+              <Customer key={i} customer={customer} />
             ))}
           </tbody>
         </table>
