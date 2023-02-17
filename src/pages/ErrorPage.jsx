@@ -9,7 +9,9 @@ const ErrorPage = () => {
         CMR - Clientes
       </h1>
       <p className="text-center">Hubo un error</p>
-      <p className="text-center">{error.message}</p>
+      <p className="text-center text-red-700 font-bold uppercase">
+        {error.statusText || error.message}
+      </p>
     </div>
   );
 };
